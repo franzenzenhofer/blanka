@@ -1,0 +1,47 @@
+{
+  "name": "yet-another-coffescript-skeleton",
+  "version": "0.0.2",
+  "description": "simple coffeescript skeleton with grunt build processes",
+  "homepage": "https://github.com/franzenzenhofer/yet-another-coffeescript-skeleton",
+  "main": "index.html",
+  "dependencies": {
+    "express": "3.1.0"
+  },
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "coffee-script": "1.5.1",
+    "grunt-contrib-uglify": "~0.1.1rc6",
+    "grunt-contrib-concat": "~0.1.2rc6",
+    "grunt-contrib-watch": "~0.2.0rc7",
+    "grunt-contrib-coffee": "~0.4.0rc7",
+    "grunt-contrib-jshint": "~0.1.1rc6",
+    "grunt-contrib-htmlmin": "~0.1.1",
+    "grunt-contrib-cssmin": "~0.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/franzenzenhofer/yet-another-coffeescript-skeleton"
+  },
+  "keywords": [
+    "coffeescript",
+    "skeleton",
+    "coffee-script"
+  ],
+  "buildfiles": [
+    "js/temp/main.js"
+  ],
+  "coffeesrc": [
+    "js/coffee/main.coffee"
+  ],
+  "buildto": "js/lib/main.js",
+  "buildmin": "js/lib/main.min.js",
+  "coffetemp": "js/temp/main.coffee",
+  "temp": "js/temp",
+  "coffeedest": "js/temp/main.js",
+  "author": "franz enzenhofer",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
